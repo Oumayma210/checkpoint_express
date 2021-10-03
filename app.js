@@ -26,7 +26,7 @@ if (day > 0 && day < 6 && hours > 9 && hours < 18) {
 }
 
 //create server
-const port = 8000;
+const port = 4000;
 app.listen(port, (error) => {
     error
         ? console.log(error)
