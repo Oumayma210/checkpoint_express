@@ -25,6 +25,7 @@ if (day > 0 && day < 6 && hours > 9 && hours <17) {
     app.use(NavbarRoute);
 }
 
+
 //create server
 const port = 4000;
 app.listen(port, (error) => {
