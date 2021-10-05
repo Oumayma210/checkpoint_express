@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 let date = new Date();
 let day = date.getDay();
 let hours = date.getHours();
-if (day > 0 && day < 6 && hours > 9 && hours <= 23) {
+if (day > 0 && day < 6 && hours > 9 && hours <17) {
     app.use(homeRoute);
     app.use(OurservicesRoute);
     app.use(ContactusRoute);
